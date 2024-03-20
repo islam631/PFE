@@ -123,10 +123,11 @@ class _HomePageState extends State<HomePage> {
                     scrollDirection: Axis.horizontal,
                     children: [
                       DecouvrirCard(
-                          title: S.of(context).historique,
-                          image:
-                              "assets/images/images_button_accueil/historique.png",
-                          onTap: () {},),
+                        title: S.of(context).historique,
+                        image:
+                            "assets/images/images_button_accueil/historique.png",
+                        onTap: () {},
+                      ),
                       DecouvrirCard(
                           title: S.of(context).quisommesnous,
                           image:
@@ -191,7 +192,7 @@ class _HomePageState extends State<HomePage> {
               ),
               Container(
                 width: double.infinity,
-                height: 500,
+                height: 570,
                 margin: EdgeInsets.symmetric(vertical: 20),
                 decoration: BoxDecoration(
                   color: uiProvider.isDark
@@ -268,7 +269,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         Container(
-                          height: 60,
+                          height: 80,
                           child: Padding(
                             padding: const EdgeInsets.symmetric(
                                 vertical: 10, horizontal: 30),
@@ -278,7 +279,7 @@ class _HomePageState extends State<HomePage> {
                                 Text(
                                   S.of(context).politiqueQualite,
                                   style: TextStyle(
-                                    fontSize: 9,
+                                    fontSize: 12,
                                   ),
                                   textAlign: TextAlign.justify,
                                 ),
@@ -292,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: 250,
+                height: 280,
                 width: double.infinity,
                 margin: EdgeInsets.only(left: 15, right: 15, bottom: 20),
                 decoration: BoxDecoration(

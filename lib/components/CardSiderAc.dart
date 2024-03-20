@@ -58,11 +58,7 @@ class CardSiderAc extends StatelessWidget {
         ),
         Container(
           width: 170,
-          height: 80,
-          // decoration: BoxDecoration(
-          //   color: Colors.white,
-          //   borderRadius: BorderRadius.circular(15),
-          // ),
+          height: 130,
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 4),
             child: Column(
@@ -71,7 +67,7 @@ class CardSiderAc extends StatelessWidget {
                 Text(
                   text,
                   style: TextStyle(
-                    fontSize: 9,
+                    fontSize: 12,
                   ),
                   textAlign: TextAlign.justify,
                 ),
